@@ -1,27 +1,89 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@include xyz-all;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* scroll transparent */
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+*::-webkit-scrollbar {
+    display: none;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Custom Animation/Transition out Tailwind */
+
+.parent-on-hover:hover .display-child-hover {
+    top: 8.4375rem;
+    opacity: 1;
+}
+
+
+
+/* ------------------------------ */
+.parent-on-hover-seemore:hover .display-child-seemore {
+    opacity: 1;
+}
+
+@layer components {
+
+    /* Reused Class */
+    .sort-btn {
+        @apply bg-spot-profile-pannel px-3 py-2 rounded-full text-sm font-medium hover:cursor-pointer;
+    }
+
+    .sort-btn.selected {
+        @apply bg-white text-black;
+    }
+
+    .landingpage-def-div-class {
+        @apply w-full snap-start scroll-mt-[5.5rem] px-5 flex-col flex gap-4
+    }
+
+    /* Long Class */
+    .content-page-bg {
+        @apply h-[98vh] bg-local overflow-y-scroll overflow-x-hidden rounded-lg snap-y bg-gradient-to-b from-neutral-800 from-5% via-neutral-900 via-10% to-spot-black-bg to-100%
+    }
+
+    .carrousel-item {
+        @apply z-0 min-w-[10.0625rem] max-w-[11.655rem] relative p-3 flex flex-col gap-2 shadow-spot-def bg-spot-black-pannel rounded-md overflow-hidden transition ease-in duration-150
+    }
+
+    .carrousel-item:hover {
+        @apply bg-spot-black-pannel-hover
+        /* cursor-pointer */
+    }
+
+    .seemore-carrousel-item {
+        @apply z-50 overflow-hidden absolute top-[60%] right-[10%] font-semibold rounded-full text-xs bg-green-700 px-2 py-1 opacity-0 display-child-hover shadow-lg
+    }
+
+    .social, .contacts {
+        @apply flex flex-col gap-5;
+    }
+
+
+    .porfile-info-sidebar {
+        @apply flex flex-col gap-2;
+    }
+
+    .porfile-info-sidebar li {
+        @apply flex flex-col text-base font-normal
+    }
+
+    .porfile-info-sidebar li a {
+        @apply hover:underline text-neutral-300 hover:text-neutral-50
+    }
+
+    .porfile-info-sidebar li h1 {
+        @apply text-lg font-medium
+    }
+
+    .profileInfoBtn {
+        @apply py-2 px-4 bg-green-700 rounded-2xl hover:cursor-pointer
+    }
+
 }
