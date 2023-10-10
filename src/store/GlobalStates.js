@@ -19,7 +19,7 @@ export const useGlobalState = create((set) => ({
             name: "Javascript",
             description:
                 "A high-level, interpreted scripting language for the web.",
-            imgSrc: "/Technology/javascript.png ",
+            imgSrc: "/Technology/vue.png ",
             category: ["Front-End", "Programming Language"],
         },
         {
