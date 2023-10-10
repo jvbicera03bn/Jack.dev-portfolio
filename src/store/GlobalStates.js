@@ -12,14 +12,14 @@ export const useGlobalState = create((set) => ({
             name: "Vue",
             description:
                 "A progressive JavaScript framework for building user interfaces.",
-            imgSrc: "/Technology/Vue.png",
+            imgSrc: "/Technology/vue.png",
             category: ["Front-End"],
         },
         {
             name: "Javascript",
             description:
                 "A high-level, interpreted scripting language for the web.",
-            imgSrc: "/Technology/Js.png ",
+            imgSrc: "/Technology/js.png ",
             category: ["Front-End", "Programming Language"],
         },
         {
