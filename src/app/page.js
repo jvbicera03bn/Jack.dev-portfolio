@@ -6,7 +6,7 @@ import VerifiedOccupation from "@/components/VerifiedOccupation";
 import { useGlobalState } from "@/store/GlobalStates";
 
 export default function Home() {
-    const { technology, sortOptionTechnology, project, experiences } =
+    const { technology, project, experiences } =
         useGlobalState();
     return (
         <ContentPage displayName={"Jack Vincent Bicera"}>
@@ -25,7 +25,6 @@ export default function Home() {
                     tooltipStat={true}
                     seeMoreOption={true}
                     carrouselName={"Technologies"}
-                    sortOptions={sortOptionTechnology}
                     isBox={true}
                     seeMoreToggle={true}
                     carrouselContent={technology}

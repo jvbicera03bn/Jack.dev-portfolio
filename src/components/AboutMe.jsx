@@ -16,13 +16,13 @@ function AboutMe({ isBig }) {
                 }`}
             >
                 <VerifiedOccupation />
-                <p className="font-medium overflow-hidden ">
-                    Hi! I'm Jack Vincent Bicera, a Website/Software Developer. While
-                    studying, I developed a keen interest in web and software
+                <p className="font-medium overflow-hidden">
+                    {`Hi! I'm Jack Vincent Bicera, a Website/Software Developer. While
+                    in College, I developed a keen interest in web and software
                     development. I'm deeply passionate about technology and
                     programming. I find joy in solving problems through code and
                     believe in the transformative power of technology. Let's
-                    connect and create together!
+                    connect and create together!`}
                 </p>
             </div>
         </div>
