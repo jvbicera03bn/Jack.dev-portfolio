@@ -47,7 +47,7 @@ function Carrousel({
                 className={`flex-row flex gap-y-5 ${
                     carrouselContent.length < 7
                         ? "justify-start gap-5"
-                        : "justify-evenly"
+                        : "justify-center gap-4"
                 } flex-wrap overflow-hidden transition-all duration-200 ${
                     seeMoreState ? `h-[17.5rem]` : `h-full`
                 }`}

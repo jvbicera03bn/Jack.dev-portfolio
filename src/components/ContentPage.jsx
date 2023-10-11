@@ -6,7 +6,7 @@ function ContentPage({ children, displayName }) {
     const divRef = useRef();
     const [isBgTransparent, setIsTransparent] = useState(true);
     function scrollTracker() {
-        if (divRef.current.scrollTop <= 270) {
+        if (divRef.current.scrollTop <= 1) {
             setIsTransparent(true);
         } else {
             setIsTransparent(false);

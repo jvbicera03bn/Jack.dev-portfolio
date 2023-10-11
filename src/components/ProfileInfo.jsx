@@ -9,6 +9,8 @@ import {
     AiOutlineDownload,
 } from "react-icons/ai";
 import { SiGoogledocs, SiGoogledrive } from "react-icons/si";
+import Note from "./Note";
+import MobileTechnologies from "./MobileTechnologies";
 
 function ProfileInfo() {
     return (
@@ -20,6 +22,8 @@ function ProfileInfo() {
             </h6>
 
             <CoverAlbum />
+            <Note />
+            <MobileTechnologies />
             <ProfileSections name="Credentials">
                 <ul className="porfile-info-sidebar">
                     <li>
@@ -51,14 +55,14 @@ function ProfileInfo() {
                             <SiGoogledrive />
                             Google Drive
                         </a>
-                        <a
+                        {/* <a
                             className="flex flex-row items-center gap-2"
                             download="Jack Vincent Bicera Resume/CV"
                             href="/Files/certificates.zip"
                         >
                             <AiOutlineDownload />
                             Direct Download
-                        </a>
+                        </a> */}
                     </li>
                 </ul>
             </ProfileSections>
