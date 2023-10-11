@@ -4,8 +4,8 @@ import "./globals.css";
 import { Work_Sans } from "next/font/google";
 
 export const metadata = {
-    title: "Spotify Portfolio",
-    description: "Made by Jack Vincent Dev",
+    title: "Jack.Dev Portfolio",
+    description: "Spotify Inspired Portfolio",
 };
 const workSans = Work_Sans({
     subsets: ["latin"],

@@ -16,7 +16,7 @@ function AboutMe({ isBig }) {
                 }`}
             >
                 <VerifiedOccupation />
-                <p className="font-medium overflow-hidden">
+                <p className="font-medium overflow-hidden bg-opacity-50 bg-neutral-800 p-2 rounded-xl">
                     {`Hi! I'm Jack Vincent Bicera, a Website/Software Developer. While
                     in College, I developed a keen interest in web and software
                     development. I'm deeply passionate about technology and
