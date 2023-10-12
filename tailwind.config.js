@@ -23,8 +23,12 @@ module.exports = {
             boxShadow: {
                 "spot-def": "0px 0px 10px 0px rgba(0,0,0,0.1);",
                 "circle-img": "0px 0px 0px 25px rgba(0,0,0,0.03)",
-                note: "inset 0px -75px 170px -150px rgba(0,0,0,0.5) , inset 0px 75px 170px -150px rgba(0,0,0,0.5)",
+                "notes-visitor":
+                    "inset 0px -75px 170px -150px rgba(0,0,0,0.5) , inset 0px 75px 170px -150px rgba(0,0,0,0.5)",
             },
+            scale:{
+                "about":'1.01'
+            }
         },
     },
     plugins: [],

@@ -66,9 +66,9 @@ function ProfileInfo() {
                     </li>
                 </ul>
             </ProfileSections>
-            <div className={"lg:hidden"}>
+            {/* <div className={"lg:hidden"}> */}
                 <AboutMe isBig={false} />
-            </div>
+            {/* </div> */}
             <ProfileSections name="Contacts & Socials">
                 <ul className="porfile-info-sidebar">
                     <li>

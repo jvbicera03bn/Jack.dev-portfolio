@@ -9,7 +9,7 @@ function Note() {
         <div
             className={`${
                 IsNoteShowing
-                    ? "shadow-note"
+                    ? "shadow-notes-visitor"
                     : "bg-spot-profile-pannel shadow-spot-def"
             } mx-4 py-5 px-4 rounded-lg`}
         >

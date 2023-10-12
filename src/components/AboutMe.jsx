@@ -6,8 +6,8 @@ function AboutMe({ isBig }) {
             className={`transition-all duration-300 bg-about-me-img shadow-spot-def bg-cover rounded-lg  
             ${
                 isBig
-                    ? "w-[75%] min-h-[40vh] hover:w-[76%] hover:min-h-[41vh]"
-                    : "mx-4 hover:mx-3 "
+                    ? "w-[75%] min-h-[40vh] hover:scale-about"
+                    : "mx-4 hover:scale-about "
             }`}
         >
             <div

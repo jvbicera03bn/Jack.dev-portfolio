@@ -100,7 +100,7 @@
         @apply flex flex-row gap-1 flex-wrap justify-center
     }
     .mobileTechnologies ul li div p {
-        @apply text-2xl flex flex-col items-center border rounded-lg py-1 shadow-spot-def min-w-[5.3125rem] 
+        @apply text-2xl flex flex-col items-center border rounded-lg py-1 shadow-spot-def min-w-[5.3125rem]
     }
     .mobileTechnologies ul li div p span {
         @apply text-sm
