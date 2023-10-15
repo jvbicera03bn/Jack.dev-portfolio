@@ -63,7 +63,7 @@ function ProfileInfo() {
                                 <BsDash />
                             </span>
                             <CalendarLogo
-                                date="Jan"
+                                date="Dec"
                                 numDate={2022}
                                 adjustSizeNum={"text-lg"}
                             />
@@ -88,7 +88,7 @@ function ProfileInfo() {
                                 <BsDash />
                             </span>
                             <CalendarLogo
-                                date="Jan"
+                                date="Dec"
                                 numDate={2022}
                                 adjustSizeNum={"text-lg"}
                             />
