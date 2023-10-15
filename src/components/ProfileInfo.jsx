@@ -26,83 +26,83 @@ function ProfileInfo() {
             <Note />
             <MobileTechnologies />
             <div className="lg:hidden">
-            <ProfileSections name="Experiences">
-                <div className="flex flex-row items-center gap-2">
-                    <div className="flex flex-row items-center ">
-                        <CalendarLogo
-                            date="Jan"
-                            numDate={2023}
-                            adjustSizeNum={"text-lg"}
-                        />
-                        <span className="text-lg text-white">
-                            <BsDash />
-                        </span>
-                        <CalendarLogo
-                            date="May"
-                            numDate={2023}
-                            adjustSizeNum={"text-lg"}
-                        />
+                <ProfileSections name="Experiences">
+                    <div className="flex flex-row items-center gap-2">
+                        <div className="flex flex-row items-center ">
+                            <CalendarLogo
+                                date="Jan"
+                                numDate={2023}
+                                adjustSizeNum={"text-lg"}
+                            />
+                            <span className="text-lg text-white">
+                                <BsDash />
+                            </span>
+                            <CalendarLogo
+                                date="May"
+                                numDate={2023}
+                                adjustSizeNum={"text-lg"}
+                            />
+                        </div>
+                        <div>
+                            <h1 className="font-semibold">
+                                Web Developer At Retailgate
+                            </h1>
+                            <p className="font-medium text-neutral-400">
+                                Jan - May • Makati City
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <h1 className="font-semibold">
-                            Web Developer At Retailgate
-                        </h1>
-                        <p className="font-medium text-neutral-400">
-                            Jan - May • Makati City
-                        </p>
+                    <div className="flex flex-row items-center gap-2 pt-3">
+                        <div className="flex flex-row items-center ">
+                            <CalendarLogo
+                                date="Jan"
+                                numDate={2019}
+                                adjustSizeNum={"text-lg"}
+                            />
+                            <span className="text-lg text-white">
+                                <BsDash />
+                            </span>
+                            <CalendarLogo
+                                date="Dec"
+                                numDate={2022}
+                                adjustSizeNum={"text-lg"}
+                            />
+                        </div>
+                        <div className="">
+                            <h1 className="font-semibold">
+                                Freelance Programmer Tutor
+                            </h1>
+                            <p className="font-medium text-neutral-400">
+                                2019-2022 • Laguna-Cavite
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div className="flex flex-row items-center gap-2 pt-3">
-                    <div className="flex flex-row items-center ">
-                        <CalendarLogo
-                            date="Jan"
-                            numDate={2019}
-                            adjustSizeNum={"text-lg"}
-                        />
-                        <span className="text-lg text-white">
-                            <BsDash />
-                        </span>
-                        <CalendarLogo
-                            date="Dec"
-                            numDate={2022}
-                            adjustSizeNum={"text-lg"}
-                        />
+                    <div className="flex flex-row items-center gap-2 pt-3">
+                        <div className="flex flex-row items-center ">
+                            <CalendarLogo
+                                date="Jan"
+                                numDate={2017}
+                                adjustSizeNum={"text-lg"}
+                            />
+                            <span className="text-lg text-white">
+                                <BsDash />
+                            </span>
+                            <CalendarLogo
+                                date="Dec"
+                                numDate={2022}
+                                adjustSizeNum={"text-lg"}
+                            />
+                        </div>
+                        <div className="">
+                            <h1 className="font-semibold">
+                                Freelance IT Technician
+                            </h1>
+                            <p className="font-medium text-neutral-400">
+                                2017-2022 • Laguna-Cavite
+                            </p>
+                        </div>
                     </div>
-                    <div className="">
-                        <h1 className="font-semibold">
-                            Freelance Programmer Tutor
-                        </h1>
-                        <p className="font-medium text-neutral-400">
-                            2019-2022 • Laguna-Cavite
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-row items-center gap-2 pt-3">
-                    <div className="flex flex-row items-center ">
-                        <CalendarLogo
-                            date="Jan"
-                            numDate={2017}
-                            adjustSizeNum={"text-lg"}
-                        />
-                        <span className="text-lg text-white">
-                            <BsDash />
-                        </span>
-                        <CalendarLogo
-                            date="Dec"
-                            numDate={2022}
-                            adjustSizeNum={"text-lg"}
-                        />
-                    </div>
-                    <div className="">
-                        <h1 className="font-semibold">
-                            Freelance IT Technician
-                        </h1>
-                        <p className="font-medium text-neutral-400">
-                            2017-2022 • Laguna-Cavite
-                        </p>
-                    </div>
-                </div>
-            </ProfileSections>
+                </ProfileSections>
             </div>
             <ProfileSections name="Credentials">
                 <ul className="porfile-info-sidebar">
@@ -118,8 +118,8 @@ function ProfileInfo() {
                         </a>
                         <a
                             className="flex flex-row items-center gap-2"
-                            download="Jack Vincent Bicera Resume/CV"
-                            href="/Files/resume.pdf"
+                            href="https://docs.google.com/document/export?format=pdf&id=1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM"
+                            target="_blank"
                         >
                             <AiOutlineDownload />
                             Direct Download
@@ -135,14 +135,14 @@ function ProfileInfo() {
                             <SiGoogledrive />
                             Google Drive
                         </a>
-                        {/* <a
+                        <a
                             className="flex flex-row items-center gap-2"
-                            download="Jack Vincent Bicera Resume/CV"
-                            href="/Files/certificates.zip"
+                            href="https://drive.google.com/uc?export=download&id=1vRLUDN5jQXO9TeJONB0vzO0NUk_jk4Kg"
+                            target="_blank"
                         >
                             <AiOutlineDownload />
                             Direct Download
-                        </a> */}
+                        </a>
                     </li>
                 </ul>
             </ProfileSections>
