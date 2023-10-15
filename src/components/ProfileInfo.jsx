@@ -26,83 +26,83 @@ function ProfileInfo() {
             <Note />
             <MobileTechnologies />
             {/* <div className="lg:hidden"> */}
-                <ProfileSections name="Experiences">
-                    <div className="flex flex-row items-center gap-2">
-                        <div className="flex flex-row items-center ">
-                            <CalendarLogo
-                                date="Jan"
-                                numDate={2023}
-                                adjustSizeNum={"text-lg"}
-                            />
-                            <span className="text-lg text-white">
-                                <BsDash />
-                            </span>
-                            <CalendarLogo
-                                date="May"
-                                numDate={2023}
-                                adjustSizeNum={"text-lg"}
-                            />
-                        </div>
-                        <div>
-                            <h1 className="font-semibold">
-                                Web Developer At Retailgate
-                            </h1>
-                            <p className="font-medium text-neutral-400">
-                                Jan - May • Makati City
-                            </p>
-                        </div>
+            <ProfileSections name="Experiences">
+                <div className="flex flex-row items-center gap-2">
+                    <div className="flex flex-row items-center ">
+                        <CalendarLogo
+                            date="Jan"
+                            numDate={2023}
+                            adjustSizeNum={"text-lg"}
+                        />
+                        <span className="text-lg text-white">
+                            <BsDash />
+                        </span>
+                        <CalendarLogo
+                            date="May"
+                            numDate={2023}
+                            adjustSizeNum={"text-lg"}
+                        />
                     </div>
-                    <div className="flex flex-row items-center gap-2 pt-3">
-                        <div className="flex flex-row items-center ">
-                            <CalendarLogo
-                                date="Jan"
-                                numDate={2019}
-                                adjustSizeNum={"text-lg"}
-                            />
-                            <span className="text-lg text-white">
-                                <BsDash />
-                            </span>
-                            <CalendarLogo
-                                date="Dec"
-                                numDate={2022}
-                                adjustSizeNum={"text-lg"}
-                            />
-                        </div>
-                        <div className="">
-                            <h1 className="font-semibold">
-                                Freelance Programmer Tutor
-                            </h1>
-                            <p className="font-medium text-neutral-400">
-                                2019-2022 • Laguna-Cavite
-                            </p>
-                        </div>
+                    <div>
+                        <h1 className="font-semibold">
+                            Web Developer At Retailgate
+                        </h1>
+                        <p className="font-medium text-neutral-400">
+                            Jan - May • Makati City
+                        </p>
                     </div>
-                    <div className="flex flex-row items-center gap-2 pt-3">
-                        <div className="flex flex-row items-center ">
-                            <CalendarLogo
-                                date="Jan"
-                                numDate={2017}
-                                adjustSizeNum={"text-lg"}
-                            />
-                            <span className="text-lg text-white">
-                                <BsDash />
-                            </span>
-                            <CalendarLogo
-                                date="Dec"
-                                numDate={2022}
-                                adjustSizeNum={"text-lg"}
-                            />
-                        </div>
-                        <div className="">
-                            <h1 className="font-semibold">
-                                Freelance IT Technician
-                            </h1>
-                            <p className="font-medium text-neutral-400">
-                                2017-2022 • Laguna-Cavite
-                            </p>
-                        </div>
+                </div>
+                <div className="flex flex-row items-center gap-2 pt-3">
+                    <div className="flex flex-row items-center ">
+                        <CalendarLogo
+                            date="Jan"
+                            numDate={2019}
+                            adjustSizeNum={"text-lg"}
+                        />
+                        <span className="text-lg text-white">
+                            <BsDash />
+                        </span>
+                        <CalendarLogo
+                            date="Dec"
+                            numDate={2022}
+                            adjustSizeNum={"text-lg"}
+                        />
                     </div>
-                </ProfileSections>
+                    <div className="">
+                        <h1 className="font-semibold">
+                            Freelance Programmer Tutor
+                        </h1>
+                        <p className="font-medium text-neutral-400">
+                            2019-2022 • Laguna-Cavite
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-row items-center gap-2 pt-3">
+                    <div className="flex flex-row items-center ">
+                        <CalendarLogo
+                            date="Jan"
+                            numDate={2017}
+                            adjustSizeNum={"text-lg"}
+                        />
+                        <span className="text-lg text-white">
+                            <BsDash />
+                        </span>
+                        <CalendarLogo
+                            date="Dec"
+                            numDate={2022}
+                            adjustSizeNum={"text-lg"}
+                        />
+                    </div>
+                    <div className="">
+                        <h1 className="font-semibold">
+                            Freelance IT Technician
+                        </h1>
+                        <p className="font-medium text-neutral-400">
+                            2017-2022 • Laguna-Cavite
+                        </p>
+                    </div>
+                </div>
+            </ProfileSections>
             {/* </div> */}
             <ProfileSections name="Credentials">
                 <ul className="porfile-info-sidebar">
@@ -129,7 +129,7 @@ function ProfileInfo() {
                         <h1>Certificates</h1>
                         <a
                             className="flex flex-row items-center gap-2"
-                            href="https://drive.google.com/drive/folders/1xH0zbfseUZmByVplM0PHYnZF7uP1q8V_?usp=sharing"
+                            href="https://docs.google.com/document/d/1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM/edit?usp=sharing"
                             target="_blank"
                         >
                             <SiGoogledrive />
