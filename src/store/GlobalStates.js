@@ -180,8 +180,8 @@ export const useGlobalState = create((set) => ({
             imgSrc: "/tech.png",
         },
         {
-            name: "Retailgate",
-            description: "Jan 2023 - May 2023",
+            name: "Website Developer",
+            description: "At Retailgate Techno.. Jan 2023 - May 2023",
             seeMoreStatus: "true",
             imgSrc: "/retailgate.png",
         },
