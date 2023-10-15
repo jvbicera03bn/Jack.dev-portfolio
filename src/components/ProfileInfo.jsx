@@ -110,7 +110,7 @@ function ProfileInfo() {
                         <h1>Resume</h1>
                         <a
                             className="flex flex-row items-center gap-2"
-                            href="https://docs.google.com/document/d/1JjPg2jA0id-F0KrgT8fvwtkYNIW1S92X/edit?usp=sharing&ouid=117820738079861543023&rtpof=true&sd=true"
+                            href="https://docs.google.com/document/d/1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM/edit?usp=sharing"
                             target="_blank"
                         >
                             <SiGoogledocs />
@@ -129,7 +129,7 @@ function ProfileInfo() {
                         <h1>Certificates</h1>
                         <a
                             className="flex flex-row items-center gap-2"
-                            href="https://docs.google.com/document/d/1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM/edit?usp=sharing"
+                            href="https://drive.google.com/drive/folders/1xH0zbfseUZmByVplM0PHYnZF7uP1q8V_?usp=sharing"
                             target="_blank"
                         >
                             <SiGoogledrive />
