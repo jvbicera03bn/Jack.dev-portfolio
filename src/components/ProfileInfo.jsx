@@ -25,7 +25,7 @@ function ProfileInfo() {
             <CoverAlbum />
             <Note />
             <MobileTechnologies />
-            {/* <div className="lg:hidden"> */}
+            <div className="lg:hidden">
             <ProfileSections name="Experiences">
                 <div className="flex flex-row items-center gap-2">
                     <div className="flex flex-row items-center ">
@@ -103,7 +103,7 @@ function ProfileInfo() {
                     </div>
                 </div>
             </ProfileSections>
-            {/* </div> */}
+            </div>
             <ProfileSections name="Credentials">
                 <ul className="porfile-info-sidebar">
                     <li>
