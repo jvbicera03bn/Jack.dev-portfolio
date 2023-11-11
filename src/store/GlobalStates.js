@@ -16,10 +16,17 @@ export const useGlobalState = create((set) => ({
             category: ["Front-End"],
         },
         {
-            name: "Javascript",
+            name: "JavaScript",
             description:
                 "A high-level, interpreted scripting language for the web.",
             imgSrc: "/Technology/javascript.png",
+            category: ["Front-End", "Programming Language"],
+        },
+        {
+            name: "TypeScript",
+            description:
+                "A strongly typed programming language that builds on JavaScript.",
+            imgSrc: "/Technology/typescript.png",
             category: ["Front-End", "Programming Language"],
         },
         {

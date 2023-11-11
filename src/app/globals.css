@@ -34,11 +34,9 @@
     .sort-btn {
         @apply bg-spot-profile-pannel px-3 py-2 rounded-full text-sm font-medium hover:cursor-pointer;
     }
-
     .sort-btn.selected {
         @apply bg-white text-black;
     }
-
     .landingpage-def-div-class {
         @apply w-full snap-start scroll-mt-[5.5rem] px-5 flex-col flex gap-4
     }
@@ -74,7 +72,6 @@
     .profileInfoBtn {
         @apply py-2 px-4 bg-green-700 rounded-2xl hover:cursor-pointer
     }
-
     /* Mobile Technologies Styles */
     .mobileTechnologies ul {
         @apply flex flex-col gap-2
