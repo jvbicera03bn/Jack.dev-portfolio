@@ -3,7 +3,7 @@ import { create } from "zustand";
 export const useGlobalState = create((set) => ({
     technology: [
         {
-            name: "React LKJHASDKLJASDJLKASDKLJASDLKJASDLKJASDLKJLKJ",
+            name: "React",
             description: "A JavaScript library for building user interfaces.",
             imgSrc: "/Technology/react.png",
             category: ["Front-End"],
