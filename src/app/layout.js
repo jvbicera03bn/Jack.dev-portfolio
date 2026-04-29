@@ -9,6 +9,8 @@ export const metadata = {
 };
 const workSans = Work_Sans({
     subsets: ["latin"],
+    display: "swap",
+    preload: false,
 });
 export default function RootLayout({ children }) {
     return (
