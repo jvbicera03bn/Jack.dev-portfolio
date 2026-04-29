@@ -132,7 +132,7 @@ export const useGlobalState = create((set) => ({
         {
             name: "Human Resource Management System",
             description:
-                "Or HRMS That i built for my Capstone project in College",
+                "Or HRMS That I built for my Capstone project in College",
             seeMoreStatus: "true",
             imgSrc: "/asiatech.png",
         },
@@ -175,20 +175,6 @@ export const useGlobalState = create((set) => ({
     ],
     experiences: [
         {
-            name: "Software Engineer",
-            description:
-                "Jun 2022 - Current: In my current role, I develop Flask-based Web API AI to optimize machine learning algorithms, leading frontend development with Next.js and Tailwind CSS, and backend development with Node.js and TypeScript for our company's flagship product website. Additionally, I design database schema and system architecture for scalability, collaborate cross-functionally to align development with business objectives, conduct code reviews, testing, and security implementations to uphold quality standards, mentor junior developers for team growth, and manage version control in collaboration with an On-the-Job Trainee for seamless collaboration and efficient change tracking.",
-            seeMoreStatus: "true",
-            imgSrc: "/linoflap.png",
-        },
-        {
-            name: "Website Developer",
-            description:
-                "Jan 2023 - May 2023: At Retailgate Technology this is where my skills in web development skyrocketed since i was able to work on multiple projects and also appply my already gains skills in web development to real world projects.",
-            seeMoreStatus: "true",
-            imgSrc: "/retailgate.png",
-        },
-        {
             name: "Freelance Programmer Tutor",
             description:
                 "2019 - 2022: While i was studying i was working as a tutor for the lower and my fellow classmates how to code for their projects.",
@@ -196,11 +182,32 @@ export const useGlobalState = create((set) => ({
             imgSrc: "/tutor.png",
         },
         {
-            name: "Freelance IT Technician",
+            name: "Web-Developer Intern",
             description:
-                "2017 - 2022: I also worked as an IT Technician for our neighborhood and my fellow classmates to help them with their hardware needs.",
+                "Jan 2023 - May 2023: At Retailgate Technology this is where my skills in web development skyrocketed since i was able to work on multiple projects and also appply my already gains skills in web development to real world projects.",
             seeMoreStatus: "true",
-            imgSrc: "/tech.png",
+            imgSrc: "/retailgate.png",
+        },
+        {
+            name: "Lead Software Engineer",
+            description:
+                "Nov 2023 - Oct 2024 I develop Flask-based Web API AI to optimize machine learning algorithms, leading frontend development with Next.js and Tailwind CSS, and backend development with Node.js and TypeScript for our company's flagship product website. Additionally, I design database schema and system architecture for scalability, collaborate cross-functionally to align development with business objectives, conduct code reviews, testing, and security implementations to uphold quality standards, mentor junior developers for team growth, and manage version control in collaboration with an On-the-Job Trainee for seamless collaboration and efficient change tracking.",
+            seeMoreStatus: "true",
+            imgSrc: "/linoflap.png",
+        },
+        {
+            name: "Lead Software Developer",
+            description:
+                "Oct 2024 - Oct 2025: At Asian Vision Cable Holdings Inc., I built an internal marketing work order system using Next.js, Supabase, and PostgreSQL, and designed the company's core API, billing, and subscription platform with React, Node.js, and Express.js. I also deployed and maintained Dockerized full-stack apps on Linux servers and implemented automated database backups across MySQL, PostgreSQL, and MSSQL.",
+            seeMoreStatus: "true",
+            imgSrc: "/avchi.png",
+        },
+        {
+            name: "Software Engineer",
+            description:
+                "Oct 2025 - Current: At Career Team LLC., I resolved a critical system bug estimated at 1–2 months of effort in just 3 days through deep debugging and targeted problem isolation. I develop and maintain 6 production applications for multiple clients using NestJS, Next.js, and TypeScript in a TDD Agile environment, managing tasks in Jira. I perform regular code reviews and leverage AI-assisted tooling (Claude Code) to streamline debugging and workflow automation.",
+            seeMoreStatus: "true",
+            imgSrc: "/ct.png",
         },
     ],
 }));
