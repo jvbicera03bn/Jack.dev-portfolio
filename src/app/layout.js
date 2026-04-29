@@ -1,16 +1,15 @@
 import ProfileInfo from "@/components/ProfileInfo";
 import "react-tooltip/dist/react-tooltip.css";
 import "./globals.css";
-import { Work_Sans } from "next/font/google";
+import localFont from "next/font/local";
 
 export const metadata = {
     title: "Jack.Dev Portfolio",
     description: "Spotify Inspired Portfolio",
 };
-const workSans = Work_Sans({
-    subsets: ["latin"],
+const workSans = localFont({
+    src: "../../node_modules/@fontsource-variable/work-sans/files/work-sans-latin-wght-normal.woff2",
     display: "swap",
-    preload: false,
 });
 export default function RootLayout({ children }) {
     return (
