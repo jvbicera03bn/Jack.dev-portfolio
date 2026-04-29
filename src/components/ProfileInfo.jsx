@@ -110,14 +110,6 @@ function ProfileInfo() {
                         <h1>Resume</h1>
                         <a
                             className="flex flex-row items-center gap-2"
-                            href="https://docs.google.com/document/d/1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM/edit?usp=sharing"
-                            target="_blank"
-                        >
-                            <SiGoogledocs />
-                            Google Doc
-                        </a>
-                        <a
-                            className="flex flex-row items-center gap-2"
                             href="https://docs.google.com/document/export?format=pdf&id=1acyQmsxOB22nHbswLRpLSauQLFPsP8ftnfiM_Z3jLCM"
                             target="_blank"
                         >
@@ -127,14 +119,6 @@ function ProfileInfo() {
                     </li>
                     <li>
                         <h1>Certificates</h1>
-                        <a
-                            className="flex flex-row items-center gap-2"
-                            href="https://drive.google.com/drive/folders/1xH0zbfseUZmByVplM0PHYnZF7uP1q8V_?usp=sharing"
-                            target="_blank"
-                        >
-                            <SiGoogledrive />
-                            Google Drive
-                        </a>
                         <a
                             className="flex flex-row items-center gap-2"
                             href="https://drive.google.com/uc?export=download&id=1vRLUDN5jQXO9TeJONB0vzO0NUk_jk4Kg"
